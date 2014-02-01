@@ -1,0 +1,24 @@
+HOST: http://infinite-ridge-6275.herokuapp.com/api/v1
+
+--- Oblecky ---
+---
+Test e-shopu
+---
+
+
+--
+Stranky
+--
+
+
+Vraceni stranek pro menu layoutu.
+GET /pages?fields={pole}
+< 200
+< Content-Type: application/json
+[
+    {"name": "O nás", "url": "o-nas"},
+    {"name": "Obchodní podmínky", "url": "obchodni-podminky"},
+    {"name": "FAQ", "url": "faq"},
+    {"name": "Kontakt", "url": "kontakt"}
+]
+
