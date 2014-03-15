@@ -22,3 +22,9 @@ GET /pages?fields={pole}
     {"name": "Kontakt", "url": "kontakt"}
 ]
 
+Vraceni detailu stranky.
+GET /pages?url={url}
+< 200
+< Content-Type: application/json
+{"name": "O nás",
+"text": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."}
